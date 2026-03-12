@@ -59,6 +59,6 @@ if estudiantes:
     print("="*50)
     print(f"Estudiante con la calificación más alta: {estudiante_max['nombre']} ({estudiante_max['calificacion']})")
     print(f"Estudiante con la calificación más baja: {estudiante_min['nombre']} ({estudiante_min['calificacion']})")
-    print(".2f")
+    print(f"Calificación promedio: {promedio:.2f}")
 else:
     print("No se registraron estudiantes.")
